@@ -118,6 +118,7 @@ const Table: React.FC = () => {
                                                 phone: phoneValue,
                                             });
                                         }}
+                                        isDisabled={!edit}
                                     >
                                         Save
                                     </Button>
