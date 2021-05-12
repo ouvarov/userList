@@ -1,0 +1,14 @@
+.button
+    @include font-stile($montserrat-bold, 16px, $white)
+    padding: 8px 40px
+    margin: 4px
+    background: $orange
+    border-radius: 10px
+    &--save
+        background: $green
+    &--remove
+        background: $red
+    &--disabled
+        background: $gradient
+        color: $black
+        pointer-events: none
